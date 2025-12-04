@@ -28,7 +28,7 @@ export enum PlantCategory {
   MediumPlant,
   SmallPlant
 }
-export const catKeyName: string = PlantCategory[0]; 
+export const catKeyName: string = PlantCategory[PlantCategory.LargePlant];
 
 
 // --- 題目三：type（& 組合） ---
